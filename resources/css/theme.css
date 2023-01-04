@@ -15,6 +15,10 @@ html, body {
     background-color: var(--documentation);
 }
 
+#app > div:nth-child(2) {
+  display: flex;
+}
+
 .medium-zoom-overlay {
     background-color: var(--documentation) !important;
 }
@@ -31,8 +35,8 @@ html, body {
 .sidebar {
   background-color: var(--sidebar);
   border:0;
-  width: 30%;
-  position: fixed;
+  width: 40rem;
+  position: relative;
   z-index: 10;
   font-size: 1rem;
   top: 0;
@@ -44,6 +48,9 @@ html, body {
   padding-bottom: 2rem;
   -webkit-transition: all .2s;
   transition: all .2s;
+  max-width: 20vw;
+  display: flex;
+  justify-content: flex-end;
 }
 
 .sidebar.is-hidden {
@@ -52,8 +59,11 @@ html, body {
 
 .sidebar > ul {
   padding: 0;
-  width: 50%;
-  float:right;
+  padding-left: 0px;
+  width: max-content;
+  max-width: 30vw;
+  padding-left: 5rem;
+  position: fixed;
 }
 
 .sidebar > ul > li > h2 {
@@ -145,8 +155,8 @@ html, body {
 .documentation {
     font-size: .875em;
     font-weight: 300;
-    width: 50%;
-    margin-left: 18%;
+    max-width: 60vw;
+    padding-left: 6vw;
 }
 
 .documentation > ul:first-of-type {
