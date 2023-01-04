@@ -17,6 +17,7 @@ html, body {
 
 #app > div:nth-child(2) {
   display: flex;
+  min-height: 100vh;
 }
 
 .medium-zoom-overlay {
