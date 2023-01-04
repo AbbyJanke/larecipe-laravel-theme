@@ -63,7 +63,6 @@ html, body {
   padding-left: 0px;
   width: max-content;
   max-width: 30vw;
-  padding-left: 5rem;
   position: fixed;
   overflow-y: scroll;
   max-height: 90vh;
@@ -72,7 +71,7 @@ html, body {
 
 .sidebar > ul > li > h2 {
   padding: 1.25rem;
-  color: #090910;
+  color: #595555;
   font-weight: 500;
   font-size: 1em;
   margin-bottom: 0;
