@@ -64,6 +64,9 @@ html, body {
   max-width: 30vw;
   padding-left: 5rem;
   position: fixed;
+  overflow-y: scroll;
+  max-height: 90vh;
+  padding-bottom: 5vh;
 }
 
 .sidebar > ul > li > h2 {
