@@ -128,7 +128,7 @@ html, body {
 }
 
 .sidebar > ul > li > ul > li ul > li.is-active a {
-  font-weight: 400;
+  font-weight: bold;
 }
 .sidebar > ul > li > ul > li ul > li.is-active a::before {
   content: '\25CF';
@@ -219,6 +219,11 @@ html, body {
 .documentation a {
   color: #EC0D00;
   text-decoration: underline;
+}
+
+.documentation strong  {
+  font-weight: bold;
+  color: #484444;  
 }
 
 .documentation.is-light :not(pre) > code[class*="language-"],
