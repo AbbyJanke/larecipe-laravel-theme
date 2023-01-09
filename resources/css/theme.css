@@ -185,6 +185,7 @@ html, body {
   color: #0A0A10;
   display: inline-flex;
   align-items: center;
+  padding: .3rem 0;
 }
 
 .documentation > ul:first-of-type li a::before {
@@ -204,7 +205,7 @@ html, body {
 .documentation > ul:first-of-type li ul a {
   font-weight: 500;
   display: inline-flex;
-  padding: 1.4rem 0 1rem;
+  padding: .6rem 0 .5rem;
   align-items: center;
 }
 
