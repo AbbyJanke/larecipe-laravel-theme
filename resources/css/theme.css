@@ -196,12 +196,14 @@ html, body {
 
 .documentation > ul:first-of-type li ul li {
   margin-left: 0;
+  padding: 0;
 }
 
 .documentation > ul:first-of-type li ul a {
   font-weight: 500;
-  display: inline-block;
-  padding: .7rem 0;
+  display: inline-flex;
+  padding: 1.4rem 0 1rem;
+  align-items: center;
 }
 
 .documentation h1:first-of-type {
